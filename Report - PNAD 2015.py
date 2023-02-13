@@ -1,10 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
-
-
-
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
@@ -13,13 +9,8 @@ dados = pd.read_csv('C:/Users/JOHGNATAN/OneDrive/Área de Trabalho/Python_Data_S
 dados['Altura'] = dados['Altura'].round(2)
 dados.head()
 
-
 # 
 # O primeiro passo em um trabalho de análise é o conhecimento do comportamento das variáveis envolvidas no estudo. Utilizando técnicas estatísticas como as análises das <b>DISTRIBUIÇÕES DE FREQUÊNCIAS</b> para avaliar melhor a forma como os fenômenos em estudo se distribuem.
-
-# In[3]:
-
-
 
 cod_gen = [0, 1]
 desc_gen = ['Masculino',
@@ -43,10 +34,6 @@ frequencia.rename(index = sexo, inplace = True)
 frequencia.rename(columns = cor, inplace = True)
 frequencia
 
-
-# In[6]:
-
-
 # PERCENTUAL (%) POR COR
 
 percentual = pd.crosstab(dados.Sexo,
@@ -56,10 +43,6 @@ percentual.rename(index = sexo, inplace = True)
 percentual.rename(columns = cor, inplace = True)
 percentual.round(2)
 
-
-# In[7]:
-
-
 # MÉDIA SALARIAL POR COR
 
 media_salarial = pd.crosstab(dados['Sexo'], dados.Cor, 
@@ -68,11 +51,6 @@ media_salarial = pd.crosstab(dados['Sexo'], dados.Cor,
 media_salarial.rename(columns = cor, inplace = True)
 media_salarial.rename(index = sexo, inplace = True)
 media_salarial.round(2)
-
-
-# In[21]:
-
-
 
 # ESTRATIFICAÇÃO SOCIAL
 
@@ -97,10 +75,5 @@ tabela.columns = ['Frequência', 'Porcentagem (%)']
 tabela.columns.name = 'Classes'
 
 tabela.sort_index(ascending = False).round(2)
-
-
-# In[ ]:
-
-
 
 
