@@ -34,7 +34,7 @@ frequencia.rename(index = sexo, inplace = True)
 frequencia.rename(columns = cor, inplace = True)
 frequencia
 
-# PERCENTUAL (%) POR COR
+# PERCENTUAL (%) POR RAÇA
 
 percentual = pd.crosstab(dados.Sexo,
                          dados.Cor,
