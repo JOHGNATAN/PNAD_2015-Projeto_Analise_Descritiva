@@ -43,7 +43,7 @@ percentual.rename(index = sexo, inplace = True)
 percentual.rename(columns = cor, inplace = True)
 percentual.round(2)
 
-# MÉDIA SALARIAL POR COR
+# MÉDIA SALARIAL POR RAÇA
 
 media_salarial = pd.crosstab(dados['Sexo'], dados.Cor, 
                              aggfunc = 'mean',
