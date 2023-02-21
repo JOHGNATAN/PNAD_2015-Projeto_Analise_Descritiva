@@ -1,5 +1,5 @@
 
-<h1>análises descritivas dos dados, incluindo distribuições de gênero, cor, renda e classe social - PNAD 2015</h2>
+<h1>Análises descritivas dos dados, incluindo distribuições de gênero, cor, renda e classe social - PNAD 2015</h2>
 
 <h2>Em seguida vamos:</h2>
 
