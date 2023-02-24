@@ -3,7 +3,6 @@
 
 <p>Em seguida vamos:</p>
 
-<p>
 - Criar dicionários para os códigos de gênero e cor, mapeando cada código para uma descrição.
 - Criar uma tabela de frequência e uma tabela de percentuais para a distribuição de gênero e cor na amostra de dados.
 - Calcular a média salarial por raça.
