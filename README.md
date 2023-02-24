@@ -1,5 +1,5 @@
 
-<h1>Esse código em Python tem como objetivo realizar análises e visualizações de dados. Ele utiliza as bibliotecas pandas, numpy e seaborn para realizar tarefas como leitura de arquivos de dados, criação de tabelas de frequência e histogramas, e plotagem de gráficos.</h2>
+<h1>Esse código em Python tem como objetivo realizar análises e visualizações de dados. Ele utiliza as bibliotecas pandas, numpy e seaborn para realizar tarefas como leitura de arquivos de dados.</h2>
 
 <p>Em seguida vamos:</p>
 
